@@ -24,7 +24,7 @@ php artisan serve --port=8010 //runs server on port 8010, as I have saved my Pos
 
 php artisan test  //to run the test cases <br>
 
-Postman Collection Link: https://www.getpostman.com/collections/49dd373b666bd4230aae
+Postman Collection Link: https://www.getpostman.com/collections/49dd373b666bd4230aae <br>
 Google Doc Link: https://docs.google.com/document/d/1dXPUh9gAb7v0Q0a5yvzg6ZMTXSldQCpcHhCO7k1Sctw/edit?usp=sharing
 
 
