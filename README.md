@@ -1,6 +1,8 @@
 ## System requirements 
-PHP
-Mysql
+PHP  <br>
+Mysql <br>
+Composer <br>
+npm <br>
 
 Create 2 databases (1 for main and 2 for testing) in mysql and use the details of database created in the application env.
 
