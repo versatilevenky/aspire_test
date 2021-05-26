@@ -18,7 +18,14 @@ edit .env file with database details <br>
 php artisan migrate
 
 then run the sql migrations attached in public folder.<br>
-users.sql on main database and aspire_test.sql on testing database if created.
+users.sql on main database and aspire_test.sql on testing database if created. <br>
+
+php artisan serve --port=8010 //runs server on port 8010, as I have saved my Postman collection with this port  <br>
+
+php artisan test  //to run the test cases <br>
+
+Postman Collection Link: https://www.getpostman.com/collections/49dd373b666bd4230aae
+Google Doc Link: https://docs.google.com/document/d/1dXPUh9gAb7v0Q0a5yvzg6ZMTXSldQCpcHhCO7k1Sctw/edit?usp=sharing
 
 
 
