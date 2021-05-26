@@ -21,7 +21,7 @@ class CreateLoansTable extends Migration
             $table->integer('term')->nullable(false);
             $table->integer('approved_amount')->nullable(false)->default(0);
             $table->integer('status')->nullable(false)->default(0);
-            $table->integer('aprroved_by')->nullable()->default(null);
+            $table->integer('approved_by')->nullable()->default(null);
             $table->string('user_remarks')->nullable()->default(null);
             $table->string('manager_remarks')->nullable()->default(null);
             $table->timestamp('approved_date')->nullable(true)->default(null);

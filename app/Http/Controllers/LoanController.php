@@ -47,7 +47,7 @@ class LoanController extends Controller
         $loanDetails['request_amount'] = $loanAmount;
         $loanDetails['request_date'] = $date;
         $loanDetails['term'] = $loanTerm;
-        $loanDetails['loan_remarks'] = $loanRemarks;
+        $loanDetails['user_remarks'] = $loanRemarks;
         $loanDetails['status'] = Loan::LOAN_STATUS_PENDING;
 
         $loanId = Loan::create($loanDetails);

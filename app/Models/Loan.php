@@ -9,7 +9,7 @@ class Loan extends Model
 {
     use HasFactory;
     protected $table = 'loans';
-    protected $fillable = ['user_id' , 'request_amount', 'term'];
+    protected $fillable = ['user_id' , 'request_amount', 'term', 'user_remarks'];
 
     const LOAN_STATUS_PENDING = 0;
     const LOAN_STATUS_APPROVED = 1;
