@@ -13,7 +13,7 @@ Note: 2 databases are not mandatory we can use same database also.
 composer install <br>
 npm install <br>
 
-edit .env file with database details <br>
+edit .env and .env.testing files with database details <br>
 
 php artisan migrate
 
