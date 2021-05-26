@@ -10,7 +10,9 @@ Note: 2 databases are not mandatory we can use same database also.
 
 composer install <br>
 npm install <br>
-edit .env file with database details
+
+edit .env file with database details <br>
+
 php artisan migrate
 
 then run the sql migrations attached in public folder.<br>
